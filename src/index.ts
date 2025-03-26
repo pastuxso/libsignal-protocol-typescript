@@ -1,3 +1,4 @@
+import './polyfills'
 import { Curve25519Wrapper } from '@privacyresearch/curve25519-typescript'
 import { Curve } from './curve'
 
