@@ -26,12 +26,12 @@ export function assertEqualUint8Arrays(a1: Uint8Array, a2: Uint8Array): void {
 }
 
 export async function generateIdentity(store: SignalProtocolStore): Promise<void> {
-    return Promise.all([KeyHelper.generateIdentityKeyPair(), KeyHelper.generateRegistrationId()]).then(function (
-        result
-    ) {
-        store.put('identityKey', result[0])
-        store.put('registrationId', result[1])
-    })
+    return Promise.all([KeyHelper.generateIdentityKeyPair(), KeyHelper.generateRegistrationId()]).then(
+        function (result) {
+            store.put('identityKey', result[0])
+            store.put('registrationId', result[1])
+        }
+    )
 }
 
 export async function generatePreKeyBundle(
