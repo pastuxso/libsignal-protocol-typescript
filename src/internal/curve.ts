@@ -1,10 +1,11 @@
-import { KeyPairType } from '../types'
 import {
-    Curve25519Wrapper,
-    AsyncCurve25519Wrapper,
     AsyncCurve as AsyncCurveType,
+    AsyncCurve25519Wrapper,
     Curve as CurveType,
-} from '@privacyresearch/curve25519-typescript'
+    Curve25519Wrapper,
+} from '@pastuxso/curve25519-typescript'
+
+import { KeyPairType } from '../types'
 import { uint8ArrayToArrayBuffer } from '../helpers'
 
 export class Curve {

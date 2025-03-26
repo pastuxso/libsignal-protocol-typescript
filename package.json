@@ -48,7 +48,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@privacyresearch/curve25519-typescript": "^0.0.12",
+    "@pastuxso/curve25519-typescript": "^0.0.13",
     "@privacyresearch/libsignal-protocol-protobuf-ts": "^0.0.9",
     "base64-js": "^1.5.1"
   },

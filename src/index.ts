@@ -1,5 +1,6 @@
-import './polyfills'
-import { Curve25519Wrapper } from '@privacyresearch/curve25519-typescript'
+import { Curve25519Wrapper } from '@pastuxso/curve25519-typescript'
+
+import * as Internal from './internal'
 import { Curve } from './curve'
 
 export * from './types'
@@ -10,8 +11,6 @@ export * from './session-builder'
 export * from './session-cipher'
 export * from './session-types'
 export * from './curve'
-
-import * as Internal from './internal'
 
 export { setWebCrypto, setCurve } from './internal'
 
