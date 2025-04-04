@@ -3,9 +3,6 @@
   "version": "1.0.4",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pastuxso/libsignal-protocol-typescript"
